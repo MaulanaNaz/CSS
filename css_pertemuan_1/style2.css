@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Sedan:ital@0;1&display=swap');
+
+/* Ini Komentar*/
+
+/* Universal Selector*/
+* {
+    color: red;
+    background-color: rgb(240, 197, 203);
+    font-variant: small-caps;
+}
+
+h1 {
+    color: tomato;
+    background-color: black;
+}
+
+/* Selector ID*/
+#heading1 {
+    /*warna Hexadecimal: RRGGBB*/
+    color: #47aae8;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+#heading2 {
+    color: beige;
+    background-color: indigo;
+}
+
+/* selector Class*/
+.heading {
+    color: #816b55;
+}
+
+h5 {
+    /*rgb (red,green,blue) */
+    /*rgba (red,green,blue,alpha) */
+    color: rgb(60, 50, 100);
+    font-family: Arial, "Times New Roman", serif;
+    font-size: xx-large;
+}
+
+.paragraf {
+    font-family: monospace;
+    color: blueviolet;
+    font-size: 32px;
+    font-style: italic;
+    /* fint-weight= 100-900// boder, bold, normal,lighter*/
+    font-weight: 100;
+}
+
+/* shorthand */
+.paragraf2 {
+    font: italic 20px "Verdana", sans-serif;
+    font-family: "cairo", sans-serif;
+    /* uppercase, lowecase, capitalize*/
+    text-transform: uppercase;
+    /* membuat paragraf atau tab */
+    text-indent: 64px;
+    /* Jarak antar baris*/
+    line-height: 2;
+    
+}
+
+.paragraf3 {
+    font-family: "sedan", serif;
+    /* text align = merubah posisi text (right, center, left)*/
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.kasih {
+    font: 400 48px "Poppins", sans-serif;
+    text-align: center;
+    /* Jarak antar Baris */
+    letter-spacing: 10px;
+}
+
+

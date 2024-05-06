@@ -1,0 +1,45 @@
+.header {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+
+    background-color: #f3ca52;
+}
+
+em {
+    color: coral;
+    font-size: 18px;
+}
+
+.main {
+    background-color: #f8c7f8;
+    text-align: justify;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.words {
+    display: inline-block;
+    width: 400px;
+    height: 150px;
+    font: 600 24px'Arial', sans-serif;
+    text-decoration: underline;
+    color: fuchsia;
+    background-color: beige;
+}
+
+.article2 {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    /* Overflow : visible (default) */
+    overflow: auto;
+
+}
+
+.footer {
+    background-color: #666;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}

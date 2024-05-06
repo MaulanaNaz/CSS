@@ -1,0 +1,23 @@
+body {
+ /* background-image: url("image3.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position: center top;
+  background-attachment: scroll;*/
+
+  /*shorhand dari semua properti background*/
+  background:url("image3.jpg")no-repeat top left / cover fixed;
+}
+
+
+.scroll {
+  width: ;
+  height: 1200px;
+}
+
+.title {
+  font: 600 48px "Arial", sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  background-color: rgba(255, 255, 240, 0.5);
+}

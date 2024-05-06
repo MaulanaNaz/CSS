@@ -1,0 +1,34 @@
+.padding {
+    width: 200px;
+    height: 200px;
+    background-color: limegreen;
+    color: white;
+    margin-bottom: 20px;
+    /*Rumus Border  : tebal gaya warna */
+    /*gaya border : solid, dashed, dotted, inset, outside, doble*/
+    border: 5px outset darkgreen;
+    border-radius: 20px ;
+    /* padding-top, padding-right, padding-bottom, padding-left */
+    /*padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;*/
+    /* 
+    padding 1 nilai : semua / keseluruhan
+    padiing 2 nilai : atas-bawah kiri-kanan
+    padding 3 nilai : atas kiri-kanan bawah
+    padding 4 nilai : atas kanan bawah kiri 
+    */
+    padding: 20px 10px 30px;
+}
+
+.kotak2 {
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    color: #fff;
+    background-color: khaki;
+    padding: 50px;
+    border: 20px solid red;
+    margin-left: 20px;
+}
